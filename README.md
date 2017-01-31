@@ -1,6 +1,9 @@
-# calc
+# dentaku
 
 ウェブブラウザ上で動く電卓アプリです。
+
+## Demo
+https://rawgit.com/snoguchi/dentaku/master/index.html
 
 ## 使い方
 
