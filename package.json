@@ -1,0 +1,17 @@
+{
+  "name": "calc",
+  "version": "0.0.0",
+  "description": "calculator on the web browser",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "author": "shinsuke.noguchi@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-webpack": "^1.5.0"
+  }
+}

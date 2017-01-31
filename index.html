@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>calc</title>
+<style>
+button {
+  font-size: 150%;
+  min-width: 2.2em;
+  width: 100%;
+}
+#frame {
+  background-color: #ddd;
+  border: 1px solid black;
+}
+#result {
+  background-color: white;
+  border: 1px solid gray;
+  font-size: 300%;
+  text-align: right;
+  word-break: break-all;
+}
+</style>
+<script type="text/javascript" src="build/bundle.js"></script>
+</head>
+<body>
+<div>
+  <table id="frame">
+    <tr>
+      <td colspan="4"><div id="result">0</div></td>
+    </tr>
+    <tr>
+      <td><button value="clearentry"  data-key-binding="Delete">CE</button></td>
+      <td><button value="clear"       data-key-binding="Escape">C</button></td>
+      <td><button value="backspace"   data-key-binding="Backspace">&larr;</button></td>
+      <td><button value="operator::/" data-key-binding="/ Num/">&divide;</button></td>
+    </tr>
+    <tr>
+      <td><button value="digit::7"    data-key-binding="7 Num7">7</button></td>
+      <td><button value="digit::8"    data-key-binding="8 Num8">8</button></td>
+      <td><button value="digit::9"    data-key-binding="9 Num9">9</button></td>
+      <td><button value="operator::*" data-key-binding="Shift-: Num*" >&times;</button></td>
+    </tr>
+    <tr>
+      <td><button value="digit::4"    data-key-binding="4 Num4">4</button></td>
+      <td><button value="digit::5"    data-key-binding="5 Num5">5</button></td>
+      <td><button value="digit::6"    data-key-binding="6 Num6">6</button></td>
+      <td><button value="operator::-" data-key-binding="- Num-">-</button></td>
+    </tr>
+    <tr>
+      <td><button value="digit::1"    data-key-binding="1 Num1">1</button></td>
+      <td><button value="digit::2"    data-key-binding="2 Num2">2</button></td>
+      <td><button value="digit::3"    data-key-binding="3 Num3">3</button></td>
+      <td><button value="operator::+" data-key-binding="Shift-; Num+" >+</button></td>
+    </tr>
+    <tr>
+      <td><button value="plusminus"   data-key-binding="F9">&plusmn;</button></td>
+      <td><button value="digit::0"    data-key-binding="0 Num0">0</button></td>
+      <td><button value="period"      data-key-binding=". Num.">.</button></td>
+      <td><button value="equal"       data-key-binding="Shift-- Enter">=</button></td>
+    </tr>
+  </table>
+</body>
+</html>
